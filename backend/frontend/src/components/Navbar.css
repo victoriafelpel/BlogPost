@@ -1,0 +1,27 @@
+.navbar {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #333;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.navbar:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.navbar-title:hover {
+  color: #007bff;
+  cursor: pointer;
+}

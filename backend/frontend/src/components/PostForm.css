@@ -1,0 +1,77 @@
+.post-form {
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  animation: fadeIn 0.4s ease-in-out;
+  width: 100%;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.post-form .submit-button {
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.post-form .submit-button:hover {
+  background-color: #574bfa;
+  transform: translateY(-2px);
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.close-button:hover {
+  color: #333;
+  transform: scale(1.2);
+}
+
+.close-button:active {
+  transform: scale(1);
+}
+
+
+
+.add-post-bar {
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 25px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  font-size: 18px;
+    margin-top: 20px;
+}
+
+.add-post-bar:hover {
+  background-color: #574bfa;
+  transform: translateY(-3px);
+}
